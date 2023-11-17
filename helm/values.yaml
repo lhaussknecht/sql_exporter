@@ -39,6 +39,12 @@ securityContext:
 serviceMonitor:
   enabled: true
   interval: 15s
+
+# ---------------------------------------------------------------------
+# -- Option to provide an existing secret with all the values from the config section
+# ---------------------------------------------------------------------
+existingSecret: {}
+
   # ---------------------------------------------------------------------
   # -- SQL exporter configuration
   # -- For a comprehensive and comprehensively documented configuration
